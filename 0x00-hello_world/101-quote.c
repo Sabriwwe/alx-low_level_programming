@@ -1,10 +1,9 @@
 #include <unistd.h>
 
 /**
- * Main: Entry point
+ * main -  Entry point
  *
- * Description: Prints "and that piece of art is useful" - Dora Korpar,
- *  2015-10-19", followed by a new line, to standard error.
+ * Description: A C program to  Prints a great quote
  *
  * Return: Always 1.
 */
