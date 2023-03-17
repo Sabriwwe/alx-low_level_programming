@@ -10,7 +10,7 @@
 int main(void)
 {
 char a;
-for (a = '0'; a < '10'; a++)
+for (a = '0'; a <= '9'; a++)
 printf("%c", a);
 for (a = 'a'; a <= 'f'; a++)
 printf("%c", a);
