@@ -14,7 +14,7 @@ int num;
 int num1;
 for (num = 0; num <= 9; num++)
 {
-for (num1 = num + 2; num1 <= 9; num++)
+for (num1 = 0; num1 <= 9; num++)
 {
 putchar((num % 10) + '0');
 putchar((num1 % 10) + '0');
@@ -25,5 +25,6 @@ putchar(' ');
 }
 }
 putchar('\n');
+  
 return (0);
 }
