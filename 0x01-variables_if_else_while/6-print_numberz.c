@@ -10,9 +10,9 @@
 */
 int main(void)
 {
-char a;
-for (a = '0'; a <= '9'; a++)
-putchar(a);
+int num;
+for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
 
 putchar('\n');
 return (0);
